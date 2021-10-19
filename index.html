@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Блог</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="searchForm">
+        <input id="searchField" type="text" placeholder="поиск по постам" />
+      </form>
+      <div class="addPostWrapper">
+        <button id="addPost">добавить</button>
+        <form id="addPostForm">
+          <input
+            type="text"
+            id="postTitle"
+            placeholder="Заголовок поста"
+            id=""
+          />
+
+          <input
+            type="text"
+            id="postBody"
+            placeholder="Содержание поста"
+            id=""
+          />
+          <button id="submitPost">Добавить пост</button>
+        </form>
+      </div>
+      <div id="postList"></div>
+      <div id="pagination"></div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

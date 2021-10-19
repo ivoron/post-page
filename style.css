@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0 auto;
+}
+.searchForm {
+  margin: 20px auto;
+  text-align: center;
+}
+#searchField {
+  min-width: calc(80% + 20px);
+}
+.postList {
+  margin: 0 auto;
+  justify-content: center;
+}
+.addPostWrapper {
+  text-align: center;
+}
+#addPostForm {
+  border: 1px solid black;
+  width: 60%;
+  margin: 10px auto;
+  padding: 5px 0;
+  display: none;
+}
+#addPostForm input {
+  display: block;
+  margin: 5px auto;
+  width: 90%;
+}
+.post {
+  border: 1px solid grey;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+}
+.post h3 {
+  display: flex;
+  justify-content: space-between;
+}
+#deleteBtn {
+  width: 25px;
+  height: 25px;
+  background: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#pagination {
+  margin: 10px auto;
+  text-align: center;
+}
+#pagination button {
+  margin: 0 5px;
+  padding: 0 5px;
+  background: none;
+  border: 1px solid grey;
+  cursor: pointer;
+}
